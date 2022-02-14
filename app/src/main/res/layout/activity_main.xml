@@ -34,12 +34,40 @@
         android:layout_height="wrap_content"
         android:text="닉네임"/>
 
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="사용할 닉네임 입력(한글 가능)"
         android:imeOptions="actionSearch"
         android:singleLine="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성별"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="남성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여성"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공개안함"/>
+
+
+    </RadioGroup>
 
     <CheckBox
         android:layout_width="wrap_content"
