@@ -81,12 +81,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="공개안함"/>
 
 
     </RadioGroup>
 
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
@@ -99,6 +101,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
         android:textAllCaps="false"
         android:text="sign up"/>
 
