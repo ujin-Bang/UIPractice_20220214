@@ -98,13 +98,26 @@
         android:layout_height="wrap_content"
         android:text="개인정보 이용에 동의합니다"/>
 
-    <Button
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FF0000"
-        android:textAllCaps="false"
-        android:text="sign up"/>
+        android:orientation="horizontal">
 
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="이전으로 "/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="가입하기"/>
+
+
+    </LinearLayout>
 
 
 
